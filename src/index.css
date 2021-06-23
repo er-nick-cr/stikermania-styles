@@ -886,10 +886,15 @@ progress {
 	justify-content: center;
 	align-items: center;
 	padding: 160px 0 88px 0;
+	height: 100vh;
 }
 
 .header__logo {
 	max-width: 70%;
+}
+
+.header__parallax {
+	margin: 0 auto;
 }
 
 .g-1,
@@ -4369,7 +4374,7 @@ fieldset:disabled .btn {
 		overflow: visible;
 	}
 	.navbar-expand-sm .navbar-collapse {
-		display: flex !important;
+		display: flex;
 		flex-basis: auto;
 	}
 	.navbar-expand-sm .navbar-toggler {
@@ -4395,7 +4400,7 @@ fieldset:disabled .btn {
 		overflow: visible;
 	}
 	.navbar-expand-md .navbar-collapse {
-		display: flex !important;
+		display: flex;
 		flex-basis: auto;
 	}
 	.navbar-expand-md .navbar-toggler {
@@ -4421,7 +4426,7 @@ fieldset:disabled .btn {
 		overflow: visible;
 	}
 	.navbar-expand-lg .navbar-collapse {
-		display: flex !important;
+		display: flex;
 		flex-basis: auto;
 	}
 	.navbar-expand-lg .navbar-toggler {
@@ -4447,7 +4452,7 @@ fieldset:disabled .btn {
 		overflow: visible;
 	}
 	.navbar-expand-xl .navbar-collapse {
-		display: flex !important;
+		display: flex;
 		flex-basis: auto;
 	}
 	.navbar-expand-xl .navbar-toggler {
@@ -4473,7 +4478,7 @@ fieldset:disabled .btn {
 		overflow: visible;
 	}
 	.navbar-expand-xxl .navbar-collapse {
-		display: flex !important;
+		display: flex;
 		flex-basis: auto;
 	}
 	.navbar-expand-xxl .navbar-toggler {
@@ -4498,7 +4503,7 @@ fieldset:disabled .btn {
 	overflow: visible;
 }
 .navbar-expand .navbar-collapse {
-	display: flex !important;
+	display: flex;
 	flex-basis: auto;
 }
 .navbar-expand .navbar-toggler {
@@ -7427,7 +7432,14 @@ fieldset:disabled .btn {
 }
 
 .ms-auto {
-	margin-left: auto !important;
+	margin-left: auto;
+}
+
+@media screen and (max-width: 991px) {
+	.ms-auto {
+		margin-right: auto !important;
+		margin-left: 0;
+	}
 }
 
 .p-0 {
@@ -11512,4 +11524,90 @@ header.masthead .h1 {
 
 .cursor {
 	cursor: pointer;
+}
+
+.navbar-collapse-min {
+	display: flex !important;
+	flex-direction: column;
+}
+
+/* Parralax for Lead */
+
+.parallax {
+	width: 1044px;
+	height: 609px;
+	position: relative;
+	margin: 100px auto 150px auto;
+}
+
+.parallax__cube {
+	position: absolute;
+	top: auto;
+	left: auto;
+}
+
+.parallax__cube_z-index {
+	z-index: 4;
+}
+
+.parallax__face {
+	position: absolute;
+	top: -120px;
+	left: 320px;
+}
+
+.parallax__bullet_top {
+	position: absolute;
+	top: -20px;
+	left: 420px;
+}
+
+.parallax__bullet_middle {
+	position: absolute;
+	top: 230px;
+	left: -70px;
+}
+
+.parallax__bullet_bottom {
+	position: absolute;
+	top: 172px;
+	left: 25px;
+}
+
+.parallax__bullets_z-index {
+	z-index: 5;
+}
+
+.lead {
+	height: 90vh;
+	padding: 20px 0 20px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.lead__title {
+	font-size: 50px;
+	font-weight: bold;
+	line-height: 80px;
+	margin: 0;
+	color: #191919;
+}
+
+.lead__accent {
+	display: inline-block;
+	position: relative;
+	z-index: 2;
+	color: #191919;
+}
+
+.lead__accent::before {
+	content: '';
+	position: absolute;
+	background-color: #fbba06;
+	width: 102%;
+	height: 30px;
+	z-index: -1;
+	bottom: 28%;
+	left: -5px;
 }

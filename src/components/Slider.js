@@ -1,6 +1,5 @@
 import React from 'react';
 import Coverflow from 'react-coverflow';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import travelFull from '../images/portfolio/fullsize/1.jpg';
 import brandFull from '../images/portfolio/fullsize/2.jpg';
 import imageFull from '../images/portfolio/fullsize/3.jpg';

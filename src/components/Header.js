@@ -1,5 +1,7 @@
 import React from 'react';
 import logo from '../images/Logo.svg';
+import { ParallaxProvider } from 'react-scroll-parallax';
+import ParralaxElement from './ParralaxElement';
 
 function Header() {
 	return (

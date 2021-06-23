@@ -1,6 +1,13 @@
 import React from 'react';
 
-function Navigation({ scroll }) {
+function Navigation({
+	scroll,
+	isNavbarActive,
+	setNavbarActiveToggler,
+	setNavbarActive,
+}) {
+	console.log(isNavbarActive);
+
 	return (
 		<nav
 			className={`navbar navbar-expand-lg navbar-light fixed-top py-3 ${
@@ -20,27 +27,33 @@ function Navigation({ scroll }) {
 					aria-controls="navbarResponsive"
 					aria-expanded="false"
 					aria-label="Toggle navigation"
+					onClick={setNavbarActiveToggler}
 				>
 					<span className="navbar-toggler-icon"></span>
 				</button>
-				<div className="collapse navbar-collapse" id="navbarResponsive">
+				<div
+					className={`collapse navbar-collapse ${
+						isNavbarActive ? 'navbar-collapse-min ' : ''
+					}`}
+					id="navbarResponsive"
+				>
 					<ul className="navbar-nav ms-auto my-2 my-lg-0">
-						<li className="nav-item">
+						<li onClick={setNavbarActive} className="nav-item">
 							<a className="nav-link" href="#about">
 								Давайте знакомиться
 							</a>
 						</li>
-						<li className="nav-item">
+						<li onClick={setNavbarActive} className="nav-item">
 							<a className="nav-link" href="#services">
 								Почему мы?
 							</a>
 						</li>
-						<li className="nav-item">
+						<li onClick={setNavbarActive} className="nav-item">
 							<a className="nav-link" href="#portfolio">
 								Можем-умеем
 							</a>
 						</li>
-						<li className="nav-item">
+						<li onClick={setNavbarActive} className="nav-item">
 							<a className="nav-link" href="#contact">
 								Свяжитесь с нами
 							</a>

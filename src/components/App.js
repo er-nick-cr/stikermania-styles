@@ -8,51 +8,64 @@ import Portfolio from './Portfolio';
 import Contact from './Contact';
 import Footer from './Footer';
 import Slider from './Slider';
+import ParallaxLead from './ParallaxLead';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { ParallaxProvider } from 'react-scroll-parallax';
+import ParralaxElement from './ParralaxElement';
 
 function App() {
 	const [scroll, setScroll] = useState(0);
-	const [isOpened, setIsOpened] = useState(false);
+	const [isNavbarActive, setNavbarActive] = useState(false);
 
 	const handleScroll = () => {
 		setScroll(window.scrollY);
 	};
 
-	function handleOpen() {
-		setIsOpened(true);
-	}
+	const handleNavbarActiveToggler = () => {
+		isNavbarActive ? setNavbarActive(false) : setNavbarActive(true);
+	};
 
-	function handleClose() {
-		setIsOpened(false);
-	}
+	const handleNavbarActive = () => {
+		setNavbarActive(false);
+	};
 
 	useEffect(() => {
 		window.addEventListener('scroll', handleScroll);
 	}, []);
 
 	return (
-		<div id="page-top">
-			<Switch>
-				<Route exact path="/">
-					<Navigation scroll={scroll} />
-					<Header />
-					<Lead />
-					<About />
-					<Services />
-					<Link to="/slider">
-						<Portfolio />
-					</Link>
-					<Contact />
-					<Footer />
-				</Route>
-				<Route path="/slider">
-					<Slider />
-					<Link className="slider__close" to="/">
-						Go back
-					</Link>
-				</Route>
-			</Switch>
-		</div>
+		<ParallaxProvider>
+			<Router basename={process.env.PUBLIC_URL}>
+				<Switch>
+					<Route exact path="/">
+						<div id="page-top">
+							<Navigation
+								scroll={scroll}
+								isNavbarActive={isNavbarActive}
+								setNavbarActiveToggler={handleNavbarActiveToggler}
+								setNavbarActive={handleNavbarActive}
+							/>
+							<Header />
+							<ParallaxLead />
+							{/* <Lead /> */}
+							<About />
+							<Services />
+							<Link to="/slider">
+								<Portfolio />
+							</Link>
+							<Contact />
+							<Footer />
+						</div>
+					</Route>
+					<Route path="/slider">
+						<Slider />
+						<Link className="slider__close" to="/">
+							Go back
+						</Link>
+					</Route>
+				</Switch>
+			</Router>
+		</ParallaxProvider>
 	);
 }
 
