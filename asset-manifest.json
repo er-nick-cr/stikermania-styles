@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/stikermania-styles/static/css/main.64e1f4a0.chunk.css",
-    "main.js": "/stikermania-styles/static/js/main.796bd393.chunk.js",
-    "main.js.map": "/stikermania-styles/static/js/main.796bd393.chunk.js.map",
-    "runtime-main.js": "/stikermania-styles/static/js/runtime-main.14d29bba.js",
-    "runtime-main.js.map": "/stikermania-styles/static/js/runtime-main.14d29bba.js.map",
-    "static/js/2.f542a08d.chunk.js": "/stikermania-styles/static/js/2.f542a08d.chunk.js",
-    "static/js/2.f542a08d.chunk.js.map": "/stikermania-styles/static/js/2.f542a08d.chunk.js.map",
-    "static/js/3.3544f49d.chunk.js": "/stikermania-styles/static/js/3.3544f49d.chunk.js",
-    "static/js/3.3544f49d.chunk.js.map": "/stikermania-styles/static/js/3.3544f49d.chunk.js.map",
+    "main.css": "/stikermania-styles/static/css/main.c384aceb.chunk.css",
+    "main.js": "/stikermania-styles/static/js/main.ec021c55.chunk.js",
+    "main.js.map": "/stikermania-styles/static/js/main.ec021c55.chunk.js.map",
+    "runtime-main.js": "/stikermania-styles/static/js/runtime-main.82211030.js",
+    "runtime-main.js.map": "/stikermania-styles/static/js/runtime-main.82211030.js.map",
+    "static/js/2.a39bc9e0.chunk.js": "/stikermania-styles/static/js/2.a39bc9e0.chunk.js",
+    "static/js/2.a39bc9e0.chunk.js.map": "/stikermania-styles/static/js/2.a39bc9e0.chunk.js.map",
+    "static/js/3.11e570af.chunk.js": "/stikermania-styles/static/js/3.11e570af.chunk.js",
+    "static/js/3.11e570af.chunk.js.map": "/stikermania-styles/static/js/3.11e570af.chunk.js.map",
     "index.html": "/stikermania-styles/index.html",
-    "static/css/main.64e1f4a0.chunk.css.map": "/stikermania-styles/static/css/main.64e1f4a0.chunk.css.map",
-    "static/js/2.f542a08d.chunk.js.LICENSE.txt": "/stikermania-styles/static/js/2.f542a08d.chunk.js.LICENSE.txt",
+    "static/css/main.c384aceb.chunk.css.map": "/stikermania-styles/static/css/main.c384aceb.chunk.css.map",
+    "static/js/2.a39bc9e0.chunk.js.LICENSE.txt": "/stikermania-styles/static/js/2.a39bc9e0.chunk.js.LICENSE.txt",
     "static/media/Hrenubiesh-smile.e5aecddf.png": "/stikermania-styles/static/media/Hrenubiesh-smile.e5aecddf.png",
     "static/media/Logo.9723b5e9.svg": "/stikermania-styles/static/media/Logo.9723b5e9.svg",
     "static/media/Oivseee.93970d0d.svg": "/stikermania-styles/static/media/Oivseee.93970d0d.svg",
@@ -24,9 +24,9 @@
     "static/media/portfolio-window.33751572.jpg": "/stikermania-styles/static/media/portfolio-window.33751572.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.14d29bba.js",
-    "static/js/2.f542a08d.chunk.js",
-    "static/css/main.64e1f4a0.chunk.css",
-    "static/js/main.796bd393.chunk.js"
+    "static/js/runtime-main.82211030.js",
+    "static/js/2.a39bc9e0.chunk.js",
+    "static/css/main.c384aceb.chunk.css",
+    "static/js/main.ec021c55.chunk.js"
   ]
 }
