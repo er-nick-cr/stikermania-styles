@@ -1,32 +1,32 @@
 {
   "files": {
-    "main.css": "/stikermania-styles/static/css/main.3fe5c409.chunk.css",
-    "main.js": "/stikermania-styles/static/js/main.d8099408.chunk.js",
-    "main.js.map": "/stikermania-styles/static/js/main.d8099408.chunk.js.map",
-    "runtime-main.js": "/stikermania-styles/static/js/runtime-main.77d75509.js",
-    "runtime-main.js.map": "/stikermania-styles/static/js/runtime-main.77d75509.js.map",
-    "static/js/2.8a5f89f8.chunk.js": "/stikermania-styles/static/js/2.8a5f89f8.chunk.js",
-    "static/js/2.8a5f89f8.chunk.js.map": "/stikermania-styles/static/js/2.8a5f89f8.chunk.js.map",
-    "static/js/3.22bbab54.chunk.js": "/stikermania-styles/static/js/3.22bbab54.chunk.js",
-    "static/js/3.22bbab54.chunk.js.map": "/stikermania-styles/static/js/3.22bbab54.chunk.js.map",
+    "main.css": "/stikermania-styles/static/css/main.64e1f4a0.chunk.css",
+    "main.js": "/stikermania-styles/static/js/main.796bd393.chunk.js",
+    "main.js.map": "/stikermania-styles/static/js/main.796bd393.chunk.js.map",
+    "runtime-main.js": "/stikermania-styles/static/js/runtime-main.14d29bba.js",
+    "runtime-main.js.map": "/stikermania-styles/static/js/runtime-main.14d29bba.js.map",
+    "static/js/2.f542a08d.chunk.js": "/stikermania-styles/static/js/2.f542a08d.chunk.js",
+    "static/js/2.f542a08d.chunk.js.map": "/stikermania-styles/static/js/2.f542a08d.chunk.js.map",
+    "static/js/3.3544f49d.chunk.js": "/stikermania-styles/static/js/3.3544f49d.chunk.js",
+    "static/js/3.3544f49d.chunk.js.map": "/stikermania-styles/static/js/3.3544f49d.chunk.js.map",
     "index.html": "/stikermania-styles/index.html",
-    "static/css/main.3fe5c409.chunk.css.map": "/stikermania-styles/static/css/main.3fe5c409.chunk.css.map",
-    "static/js/2.8a5f89f8.chunk.js.LICENSE.txt": "/stikermania-styles/static/js/2.8a5f89f8.chunk.js.LICENSE.txt",
-    "static/media/1.ac0a95df.jpg": "/stikermania-styles/static/media/1.ac0a95df.jpg",
-    "static/media/2.6bdbe324.jpg": "/stikermania-styles/static/media/2.6bdbe324.jpg",
-    "static/media/3.19ad159d.jpg": "/stikermania-styles/static/media/3.19ad159d.jpg",
-    "static/media/5.ce5c36b7.jpg": "/stikermania-styles/static/media/5.ce5c36b7.jpg",
-    "static/media/6.3544447d.jpg": "/stikermania-styles/static/media/6.3544447d.jpg",
+    "static/css/main.64e1f4a0.chunk.css.map": "/stikermania-styles/static/css/main.64e1f4a0.chunk.css.map",
+    "static/js/2.f542a08d.chunk.js.LICENSE.txt": "/stikermania-styles/static/js/2.f542a08d.chunk.js.LICENSE.txt",
     "static/media/Hrenubiesh-smile.e5aecddf.png": "/stikermania-styles/static/media/Hrenubiesh-smile.e5aecddf.png",
     "static/media/Logo.9723b5e9.svg": "/stikermania-styles/static/media/Logo.9723b5e9.svg",
     "static/media/Oivseee.93970d0d.svg": "/stikermania-styles/static/media/Oivseee.93970d0d.svg",
     "static/media/ico-s-08.7a524f0b.png": "/stikermania-styles/static/media/ico-s-08.7a524f0b.png",
-    "static/media/intro-picture.2e055773.png": "/stikermania-styles/static/media/intro-picture.2e055773.png"
+    "static/media/intro-picture.2e055773.png": "/stikermania-styles/static/media/intro-picture.2e055773.png",
+    "static/media/portfolio-bag.f1589fa4.jpg": "/stikermania-styles/static/media/portfolio-bag.f1589fa4.jpg",
+    "static/media/portfolio-car.620bfda3.jpg": "/stikermania-styles/static/media/portfolio-car.620bfda3.jpg",
+    "static/media/portfolio-paper.a234d6ae.jpg": "/stikermania-styles/static/media/portfolio-paper.a234d6ae.jpg",
+    "static/media/portfolio-phone.9634f378.jpg": "/stikermania-styles/static/media/portfolio-phone.9634f378.jpg",
+    "static/media/portfolio-window.33751572.jpg": "/stikermania-styles/static/media/portfolio-window.33751572.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.77d75509.js",
-    "static/js/2.8a5f89f8.chunk.js",
-    "static/css/main.3fe5c409.chunk.css",
-    "static/js/main.d8099408.chunk.js"
+    "static/js/runtime-main.14d29bba.js",
+    "static/js/2.f542a08d.chunk.js",
+    "static/css/main.64e1f4a0.chunk.css",
+    "static/js/main.796bd393.chunk.js"
   ]
 }
