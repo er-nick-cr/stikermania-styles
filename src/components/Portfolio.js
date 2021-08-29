@@ -1,98 +1,127 @@
-import React from 'react';
-import travel from '../images/portfolio/thumbnails/1.jpg';
-import brand from '../images/portfolio/thumbnails/2.jpg';
-import image from '../images/portfolio/thumbnails/3.jpg';
-import stickerpage from '../images/portfolio/thumbnails/5.jpg';
-import car from '../images/portfolio/thumbnails/6.jpg';
+import React, { useState } from 'react';
+import bag from '../images/portfolio/fullsize/portfolio-bag.jpg';
+import car from '../images/portfolio/fullsize/portfolio-car.jpg';
+import paper from '../images/portfolio/fullsize/portfolio-paper.jpg';
+import phone from '../images/portfolio/fullsize/portfolio-phone.jpg';
+import window from '../images/portfolio/fullsize/portfolio-window.jpg';
 
-function Portfolio({ onClick }) {
+function Portfolio() {
+	const [bagRotate, setBagRotate] = useState(false);
+	const [carRotate, setCarRotate] = useState(false);
+	const [paperRotate, setPaperRotate] = useState(false);
+	const [phoneRotate, setPhoneRotate] = useState(false);
+	const [windowRotate, setWindowRotate] = useState(false);
+
+	const handleBagRotate = () => {
+		setBagRotate(!bagRotate);
+	};
+
+	const handleCarRotate = () => {
+		setCarRotate(!carRotate);
+	};
+
+	const handlePaperRotate = () => {
+		setPaperRotate(!paperRotate);
+	};
+
+	const handlePhoneRotate = () => {
+		setPhoneRotate(!phoneRotate);
+	};
+
+	const handleWindowRotate = () => {
+		setWindowRotate(!windowRotate);
+	};
+
 	return (
-		<div id="portfolio" onClick={onClick}>
-			<div className="container-fluid p-0 cursor">
-				<div className="row g-0">
-					<div className="col-lg-4 col-sm-4">
-						<div
-							id="1"
-							className="portfolio-box"
-							href=""
-							title="Путешествующая визитка"
-						>
-							<img
-								className="img-fluid"
-								src={travel}
-								alt="Путешествующая визитка"
-							/>
-							<div className="portfolio-box-caption">
-								<div className="project-name">Путешествующая визитка</div>
-								<div className="project-category text-white-50">
-									Реклама, которая всегда с тобой
-								</div>
-							</div>
-						</div>
-					</div>
-					<div className="col-lg-4 col-sm-4">
-						<div
-							className="portfolio-box"
-							href=""
-							title="Брендированная упаковка"
-						>
-							<img
-								className="img-fluid"
-								src={brand}
-								alt="Брендированная упаковка"
-							/>
-							<div className="portfolio-box-caption">
-								<div className="project-name">Брендированная упаковка</div>
-								<div className="project-category text-white-50">
-									описание описание описание
-								</div>
-							</div>
-						</div>
-					</div>
-					<div className="col-lg-4 col-sm-4">
-						<div className="portfolio-box" href="" title="Имиджевый продукт">
-							<img className="img-fluid" src={image} alt="Имиджевый продукт" />
-							<div className="portfolio-box-caption">
-								<div className="project-name">Имиджевый продукт</div>
-								<div className="project-category text-white-50">
-									описание описание описание
-								</div>
-							</div>
-						</div>
+		<>
+			<h2 className="text-center mt-0">Здарова, заебал</h2>
+			<hr className="divider" />
+			<div id="portfolio" className="portfolio">
+				<div
+					className={`card cursor ${bagRotate ? '' : 'card_hover'}`}
+					onClick={handleBagRotate}
+				>
+					<img
+						src={bag}
+						className={`card__front ${bagRotate ? 'card__front_hover' : ''}`}
+					/>
+					<div className={`card__back ${bagRotate ? 'card__back_hover' : ''}`}>
+						<h2 className="card__header">Заголовок</h2>
+						<p className="card__description">
+							скр скр скр скр скр скр скр скр скр скр скр
+						</p>
 					</div>
 				</div>
-				<div className="row g-0">
-					<div className="col-lg-6 col-sm-6">
-						<div className="portfolio-box" href="" title="Стикерпэйдж">
-							<img className="img-fluid" src={stickerpage} alt="Стикерпэйдж" />
-							<div className="portfolio-box-caption">
-								<div className="project-name">Стикерпэйдж</div>
-								<div className="project-category text-white-50">
-									Страница со стикерами. Каждая наклейка на странице вырезана по
-									контуру.
-								</div>
-							</div>
-						</div>
+				<div
+					className={`card cursor ${carRotate ? '' : 'card_hover'}`}
+					onClick={handleCarRotate}
+				>
+					<img
+						src={car}
+						className={`card__front ${carRotate ? 'card__front_hover' : ''}`}
+					/>
+					<div className={`card__back ${carRotate ? 'card__back_hover' : ''}`}>
+						<h2 className="card__header">Заголовок</h2>
+						<p className="card__description">
+							скр скр скр скр скр скр скр скр скр скр скр
+						</p>
 					</div>
-					<div className="col-lg-6 col-sm-6">
-						<div className="portfolio-box" href="" title="Project Name">
-							<img
-								className="img-fluid"
-								src={car}
-								alt="Резка из цветных пленок"
-							/>
-							<div className="portfolio-box-caption">
-								<div className="project-name">Резка из цветных пленок</div>
-								<div className="project-category text-white-50">
-									Плоттерная резка из пленок разных оттенков. Для создания
-									аппликаций на стекла снаружи и с обратной стороны.
-								</div>
-							</div>
-						</div>
+				</div>
+				<div
+					className={`card cursor ${paperRotate ? '' : 'card_hover'}`}
+					onClick={handlePaperRotate}
+				>
+					<img
+						src={paper}
+						className={`card__front ${paperRotate ? 'card__front_hover' : ''}`}
+					/>
+					<div
+						className={`card__back ${paperRotate ? 'card__back_hover' : ''}`}
+					>
+						<h2 className="card__header">Заголовок</h2>
+						<p className="card__description">
+							скр скр скр скр скр скр скр скр скр скр скр
+						</p>
+					</div>
+				</div>
+				<div
+					className={`card cursor ${phoneRotate ? '' : 'card_hover'}`}
+					onClick={handlePhoneRotate}
+				>
+					<img
+						src={phone}
+						className={`card__front ${phoneRotate ? 'card__front_hover' : ''}`}
+					/>
+					<div
+						className={`card__back ${phoneRotate ? 'card__back_hover' : ''}`}
+					>
+						<h2 className="card__header">Заголовок</h2>
+						<p className="card__description">
+							скр скр скр скр скр скр скр скр скр скр скр
+						</p>
+					</div>
+				</div>
+				<div
+					className={`card cursor ${windowRotate ? '' : 'card_hover'}`}
+					onClick={handleWindowRotate}
+				>
+					<img
+						src={window}
+						className={`card__front card__front_window ${
+							windowRotate ? 'card__front_hover' : ''
+						}`}
+					/>
+					<div
+						className={`card__back ${windowRotate ? 'card__back_hover' : ''}`}
+					>
+						<h2 className="card__header">Заголовок</h2>
+						<p className="card__description">
+							скр скр скр скр скр скр скр скр скр скр скр
+						</p>
 					</div>
 				</div>
 			</div>
-		</div>
+		</>
 	);
 }
 

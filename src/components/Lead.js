@@ -3,7 +3,7 @@ import ovseee from '../images/Oivseee.svg';
 
 function Lead() {
 	return (
-		<section className="page-section" id="about">
+		<section className="page-section hithere" id="about">
 			<div className="container px-4 px-lg-5">
 				<div className="row gx-4 gx-lg-5 justify-content-center">
 					<div className="col-lg-12 text-center">
