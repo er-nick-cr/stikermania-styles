@@ -11688,11 +11688,19 @@ header.masthead .h1 {
 @media screen and (max-width: 1040px) {
 	.portfolio {
 		grid-template-columns: 1fr;
-		grid-template-rows: repeat(auto-fill, max-content);
-		height: auto;
+		grid-template-rows: repeat(5, 1fr);
+		height: 2500px;
 	}
 
 	.card {
+		height: 509px;
+	}
+
+	.card__front {
+		height: 509px;
+	}
+
+	.card__back {
 		height: 509px;
 	}
 
@@ -11704,5 +11712,9 @@ header.masthead .h1 {
 
 	.card__front_window {
 		object-position: 15% 50%;
+	}
+
+	.card_hover:hover .card__front {
+		transform: rotateY(0deg);
 	}
 }

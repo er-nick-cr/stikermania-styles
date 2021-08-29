@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
+import { useInView } from 'react-intersection-observer';
 import bag from '../images/portfolio/fullsize/portfolio-bag.jpg';
 import car from '../images/portfolio/fullsize/portfolio-car.jpg';
 import paper from '../images/portfolio/fullsize/portfolio-paper.jpg';
@@ -6,11 +7,18 @@ import phone from '../images/portfolio/fullsize/portfolio-phone.jpg';
 import window from '../images/portfolio/fullsize/portfolio-window.jpg';
 
 function Portfolio() {
-	const [bagRotate, setBagRotate] = useState(false);
-	const [carRotate, setCarRotate] = useState(false);
-	const [paperRotate, setPaperRotate] = useState(false);
-	const [phoneRotate, setPhoneRotate] = useState(false);
-	const [windowRotate, setWindowRotate] = useState(false);
+	const [bagRotate, setBagRotate] = useState(true);
+	const [carRotate, setCarRotate] = useState(true);
+	const [paperRotate, setPaperRotate] = useState(true);
+	const [phoneRotate, setPhoneRotate] = useState(true);
+	const [windowRotate, setWindowRotate] = useState(true);
+
+	const { ref, inView, entry } = useInView({
+		/* Optional options */
+		threshold: 0,
+	});
+
+	console.log(inView);
 
 	const handleBagRotate = () => {
 		setBagRotate(!bagRotate);
@@ -32,11 +40,25 @@ function Portfolio() {
 		setWindowRotate(!windowRotate);
 	};
 
+	const handleRotateAll = () => {
+		if (inView === true) {
+			setBagRotate(false);
+			setCarRotate(false);
+			setPaperRotate(false);
+			setPhoneRotate(false);
+			setWindowRotate(false);
+		}
+	};
+
+	useEffect(() => {
+		setTimeout(handleRotateAll, 1000);
+	}, [inView]);
+
 	return (
 		<>
 			<h2 className="text-center mt-0">Здарова, заебал</h2>
 			<hr className="divider" />
-			<div id="portfolio" className="portfolio">
+			<div id="portfolio" className="portfolio" ref={ref}>
 				<div
 					className={`card cursor ${bagRotate ? '' : 'card_hover'}`}
 					onClick={handleBagRotate}
