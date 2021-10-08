@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/stikermania-styles/static/css/main.0d05e054.chunk.css",
-    "main.js": "/stikermania-styles/static/js/main.c1069f93.chunk.js",
-    "main.js.map": "/stikermania-styles/static/js/main.c1069f93.chunk.js.map",
+    "main.css": "/stikermania-styles/static/css/main.1ccaaadb.chunk.css",
+    "main.js": "/stikermania-styles/static/js/main.42eb2a29.chunk.js",
+    "main.js.map": "/stikermania-styles/static/js/main.42eb2a29.chunk.js.map",
     "runtime-main.js": "/stikermania-styles/static/js/runtime-main.34e07e8b.js",
     "runtime-main.js.map": "/stikermania-styles/static/js/runtime-main.34e07e8b.js.map",
     "static/css/2.f25ce549.chunk.css": "/stikermania-styles/static/css/2.f25ce549.chunk.css",
-    "static/js/2.d5bbd0f6.chunk.js": "/stikermania-styles/static/js/2.d5bbd0f6.chunk.js",
-    "static/js/2.d5bbd0f6.chunk.js.map": "/stikermania-styles/static/js/2.d5bbd0f6.chunk.js.map",
+    "static/js/2.799626d0.chunk.js": "/stikermania-styles/static/js/2.799626d0.chunk.js",
+    "static/js/2.799626d0.chunk.js.map": "/stikermania-styles/static/js/2.799626d0.chunk.js.map",
     "static/js/3.245a2e00.chunk.js": "/stikermania-styles/static/js/3.245a2e00.chunk.js",
     "static/js/3.245a2e00.chunk.js.map": "/stikermania-styles/static/js/3.245a2e00.chunk.js.map",
     "index.html": "/stikermania-styles/index.html",
     "static/css/2.f25ce549.chunk.css.map": "/stikermania-styles/static/css/2.f25ce549.chunk.css.map",
-    "static/css/main.0d05e054.chunk.css.map": "/stikermania-styles/static/css/main.0d05e054.chunk.css.map",
-    "static/js/2.d5bbd0f6.chunk.js.LICENSE.txt": "/stikermania-styles/static/js/2.d5bbd0f6.chunk.js.LICENSE.txt",
+    "static/css/main.1ccaaadb.chunk.css.map": "/stikermania-styles/static/css/main.1ccaaadb.chunk.css.map",
+    "static/js/2.799626d0.chunk.js.LICENSE.txt": "/stikermania-styles/static/js/2.799626d0.chunk.js.LICENSE.txt",
     "static/media/1.aa3bd1c7.jpg": "/stikermania-styles/static/media/1.aa3bd1c7.jpg",
     "static/media/10.1fb7f4cd.JPG": "/stikermania-styles/static/media/10.1fb7f4cd.JPG",
     "static/media/11.dddb9acf.jpg": "/stikermania-styles/static/media/11.dddb9acf.jpg",
@@ -57,8 +57,8 @@
   "entrypoints": [
     "static/js/runtime-main.34e07e8b.js",
     "static/css/2.f25ce549.chunk.css",
-    "static/js/2.d5bbd0f6.chunk.js",
-    "static/css/main.0d05e054.chunk.css",
-    "static/js/main.c1069f93.chunk.js"
+    "static/js/2.799626d0.chunk.js",
+    "static/css/main.1ccaaadb.chunk.css",
+    "static/js/main.42eb2a29.chunk.js"
   ]
 }
