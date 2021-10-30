@@ -18,8 +18,6 @@ function Portfolio() {
 		threshold: 0,
 	});
 
-	console.log(inView);
-
 	const handleBagRotate = () => {
 		setBagRotate(!bagRotate);
 	};
@@ -55,10 +53,31 @@ function Portfolio() {
 	}, [inView]);
 
 	return (
-		<>
-			<h2 className="text-center mt-0">Здарова, заебал</h2>
+		<section className="page-section">
+			<h2 className="text-center mt-0">Можем - умеем</h2>
 			<hr className="divider" />
-			<div id="portfolio" className="portfolio" ref={ref}>
+			<div id="portfolio" className="portfolio cursor" ref={ref}>
+				<div
+					className={`card cursor ${phoneRotate ? '' : 'card_hover'}`}
+					onClick={handlePhoneRotate}
+				>
+					<img
+						src={phone}
+						className={`card__front ${phoneRotate ? 'card__front_hover' : ''}`}
+					/>
+					<div
+						className={`card__back ${phoneRotate ? 'card__back_hover' : ''}`}
+					>
+						<h2 className="card__header">
+							Путешествующая
+							<br />
+							визитка
+						</h2>
+						<p className="card__description">
+							Реклама, которая всегда с тобой - красиво и нативно.
+						</p>
+					</div>
+				</div>
 				<div
 					className={`card cursor ${bagRotate ? '' : 'card_hover'}`}
 					onClick={handleBagRotate}
@@ -68,24 +87,13 @@ function Portfolio() {
 						className={`card__front ${bagRotate ? 'card__front_hover' : ''}`}
 					/>
 					<div className={`card__back ${bagRotate ? 'card__back_hover' : ''}`}>
-						<h2 className="card__header">Заголовок</h2>
+						<h2 className="card__header">
+							Кастомизированная
+							<br />
+							упаковка
+						</h2>
 						<p className="card__description">
-							скр скр скр скр скр скр скр скр скр скр скр
-						</p>
-					</div>
-				</div>
-				<div
-					className={`card cursor ${carRotate ? '' : 'card_hover'}`}
-					onClick={handleCarRotate}
-				>
-					<img
-						src={car}
-						className={`card__front ${carRotate ? 'card__front_hover' : ''}`}
-					/>
-					<div className={`card__back ${carRotate ? 'card__back_hover' : ''}`}>
-						<h2 className="card__header">Заголовок</h2>
-						<p className="card__description">
-							скр скр скр скр скр скр скр скр скр скр скр
+							Брендируйте самостоятельно даже дешевый краф-пакет в любом объеме.
 						</p>
 					</div>
 				</div>
@@ -100,26 +108,29 @@ function Portfolio() {
 					<div
 						className={`card__back ${paperRotate ? 'card__back_hover' : ''}`}
 					>
-						<h2 className="card__header">Заголовок</h2>
+						<h2 className="card__header">Стикерпэйдж</h2>
 						<p className="card__description">
-							скр скр скр скр скр скр скр скр скр скр скр
+							Страница со стикерами. Каждая наклейка на странице вырезана по
+							контуру.
 						</p>
 					</div>
 				</div>
 				<div
-					className={`card cursor ${phoneRotate ? '' : 'card_hover'}`}
-					onClick={handlePhoneRotate}
+					className={`card cursor ${carRotate ? '' : 'card_hover'}`}
+					onClick={handleCarRotate}
 				>
 					<img
-						src={phone}
-						className={`card__front ${phoneRotate ? 'card__front_hover' : ''}`}
+						src={car}
+						className={`card__front ${carRotate ? 'card__front_hover' : ''}`}
 					/>
-					<div
-						className={`card__back ${phoneRotate ? 'card__back_hover' : ''}`}
-					>
-						<h2 className="card__header">Заголовок</h2>
+					<div className={`card__back ${carRotate ? 'card__back_hover' : ''}`}>
+						<h2 className="card__header">
+							Плоттерная
+							<br />
+							резка
+						</h2>
 						<p className="card__description">
-							скр скр скр скр скр скр скр скр скр скр скр
+							Вырезаем текст и логотипы разных форм и цветов.
 						</p>
 					</div>
 				</div>
@@ -136,14 +147,19 @@ function Portfolio() {
 					<div
 						className={`card__back ${windowRotate ? 'card__back_hover' : ''}`}
 					>
-						<h2 className="card__header">Заголовок</h2>
+						<h2 className="card__header">
+							Очень большие
+							<br />
+							наклейки
+						</h2>
 						<p className="card__description">
-							скр скр скр скр скр скр скр скр скр скр скр
+							Самая большая наклейка в нашей практике 4,8х2,15м, но можем и
+							больше. Поможем еще и наклеить.
 						</p>
 					</div>
 				</div>
 			</div>
-		</>
+		</section>
 	);
 }
 

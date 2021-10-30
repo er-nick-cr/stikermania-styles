@@ -10,10 +10,10 @@ import ico8 from '../images/ico/ico-s-08.png';
 
 function Services() {
 	return (
-		<section className="page-section" id="services">
+		<section className="page-section services" id="services">
 			<div className="container px-4 px-lg-5">
 				<h2 className="text-center mt-0">Почему мы?</h2>
-				<hr className="divider" />
+				<hr className="divider divider-light" />
 				<div className="row gx-4 gx-lg-5">
 					<div className="col-lg-3 col-md-6 text-center">
 						<div className="mt-5">
@@ -96,17 +96,6 @@ function Services() {
 							<h3 className="h4 mb-2">Отдаем товар поштучно</h3>
 							<p className="text-muted mb-0">
 								Отдаем наклейки и листы поштучно, никаких рулонов.
-							</p>
-						</div>
-					</div>
-					<div className="col-lg-3 col-md-6 text-center">
-						<div className="mt-5">
-							<div className="mb-2">
-								<img src={ico8} alt="Саня" className="rotate-diagonal-1" />
-							</div>
-							<h3 className="h4 mb-2">Александр Придворный</h3>
-							<p className="text-muted mb-0">
-								Да, он делает эти наклейки и да, он невероятно красив.
 							</p>
 						</div>
 					</div>

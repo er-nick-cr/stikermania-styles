@@ -3,11 +3,13 @@ import image from '../images/intro-picture.png';
 
 function About() {
 	return (
-		<section className="page-section bg-secondary">
+		<section id="about" className="page-section bg-secondary">
 			<div className="container px-4 px-lg-5">
 				<div className="row gx-4 gx-lg-5 justify-content-center">
 					<div className="col-lg-8 text-center">
-						<h2 className="mt-0">Привет</h2>
+						<h2 className="mt-0">
+							<strong>Привет</strong>
+						</h2>
 						<hr className="divider divider-light" />
 					</div>
 				</div>
@@ -19,7 +21,7 @@ function About() {
 						<div>
 							Я - Наташа, а <strong>Стикермания</strong> - мой проект, который
 							помогает бизнесу в Красноярске запомниться своим клиентам за счёт
-							<strong>ярких неубиваемых наклеек.</strong>
+							<strong> ярких неубиваемых наклеек.</strong>
 						</div>
 						<div>
 							Их можно{' '}

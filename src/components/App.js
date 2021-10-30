@@ -4,10 +4,14 @@ import Header from './Header';
 import Lead from './Lead';
 import About from './About';
 import Services from './Services';
+import Issue from './Issue';
+import IssueNarrow from './IssueNarow';
 import Portfolio from './Portfolio';
 import Contact from './Contact';
 import Footer from './Footer';
 import ParallaxLead from './ParallaxLead';
+import Corusel from './Corusel';
+import SliderCorusel from './Slider';
 import { ParallaxProvider } from 'react-scroll-parallax';
 import ParralaxElement from './ParralaxElement';
 import useWindowWidth from '../hooks/useWindowWidth';
@@ -45,8 +49,10 @@ function App() {
 				<Header />
 				{width > 1040 ? <ParallaxLead /> : <Lead />}
 				<About />
+				{width > 900 ? <Issue /> : <IssueNarrow />}
 				<Services />
 				<Portfolio />
+				<SliderCorusel />
 				<Contact />
 				<Footer />
 			</div>

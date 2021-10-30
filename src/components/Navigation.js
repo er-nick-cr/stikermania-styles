@@ -7,7 +7,6 @@ function Navigation({
 	setNavbarActive,
 }) {
 	console.log(isNavbarActive);
-
 	return (
 		<nav
 			className={`navbar navbar-expand-lg navbar-light fixed-top py-3 ${
@@ -33,7 +32,7 @@ function Navigation({
 				</button>
 				<div
 					className={`collapse navbar-collapse ${
-						isNavbarActive ? 'navbar-collapse-min ' : ''
+						isNavbarActive ? 'navbar-collapse-min' : ''
 					}`}
 					id="navbarResponsive"
 				>
