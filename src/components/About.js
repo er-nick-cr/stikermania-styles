@@ -17,7 +17,7 @@ function About() {
 					<div className="col-lg-6">
 						<img width="100%" src={image} alt="Я Наташа" />
 					</div>
-					<div className="col-lg-6">
+					<div className="col-lg-6 margin-top">
 						<div>
 							Я - Наташа, а <strong>Стикермания</strong> - мой проект, который
 							помогает бизнесу в Красноярске запомниться своим клиентам за счёт

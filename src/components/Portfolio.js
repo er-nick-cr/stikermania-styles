@@ -55,11 +55,15 @@ function Portfolio() {
 	return (
 		<section className="page-section">
 			<h2 className="text-center mt-0">Можем - умеем</h2>
+			<p className="text-muted text-center mb-0">
+				Ваш бренд в каждом стикере: от маленьких наклеек до огромных витрин
+			</p>
 			<hr className="divider" />
-			<div id="portfolio" className="portfolio cursor" ref={ref}>
+			<div id="portfolio" className="portfolio cursor">
 				<div
 					className={`card cursor ${phoneRotate ? '' : 'card_hover'}`}
 					onClick={handlePhoneRotate}
+					ref={ref}
 				>
 					<img
 						src={phone}
@@ -153,7 +157,7 @@ function Portfolio() {
 							наклейки
 						</h2>
 						<p className="card__description">
-							Самая большая наклейка в нашей практике 4,8х2,15м, но можем и
+							Самая большая наклейка в нашей практике 4,8х2,2м, но можем и
 							больше. Поможем еще и наклеить.
 						</p>
 					</div>

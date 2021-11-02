@@ -706,6 +706,7 @@ progress {
 	--bs-gutter-x: 1.5rem;
 	--bs-gutter-y: 0;
 	display: flex;
+	justify-content: center;
 	flex-wrap: wrap;
 	margin-top: calc(var(--bs-gutter-y) * -1);
 	margin-right: calc(var(--bs-gutter-x) / -2);
@@ -11260,7 +11261,13 @@ body {
 }
 
 .page-section {
-	padding: 8rem 0;
+	padding: 6rem 0;
+}
+
+@media screen and (max-width: 700px) {
+	.page-section {
+		padding: 2rem 0;
+	}
 }
 
 .text-white-75 {
@@ -11498,15 +11505,17 @@ header.masthead .h1 {
 
 .slider {
 	width: 100%;
-	height: 900px;
+	height: max-content;
 	background-color: #fbba06;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .slider__container {
 	max-width: 100%;
 	margin: 0 auto;
-	height: 800px;
-	padding: 100px 40px 100px 40px;
+	padding: 1.5rem 40px 1.5rem 40px;
 	box-sizing: border-box;
 }
 
@@ -11523,6 +11532,17 @@ header.masthead .h1 {
 .active-slide {
 	transform: scale(1);
 	opacity: 1;
+	position: relative;
+}
+
+.active-slide:hover:before {
+	content: '';
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.4);
 }
 
 .arrow {
@@ -11542,12 +11562,12 @@ header.masthead .h1 {
 
 .next {
 	top: 50%;
-	right: 0;
+	right: -25px;
 }
 
 .prev {
 	top: 50%;
-	left: 0;
+	left: -25px;
 }
 
 /* Parralax for Lead */
@@ -11742,11 +11762,15 @@ header.masthead .h1 {
 	}
 
 	.card__front_window {
-		object-position: 15% 50%;
+		object-position: 34% 50%;
 	}
 
 	.card_hover:hover .card__front {
 		transform: rotateY(0deg);
+	}
+
+	.card__header {
+		font-size: 32px;
 	}
 }
 
@@ -11769,9 +11793,9 @@ header.masthead .h1 {
 	position: relative;
 }
 
-.issue_container {
+/* .issue_container {
 	padding-bottom: 128px;
-}
+} */
 
 .issue__element {
 	list-style: none;
@@ -11971,8 +11995,7 @@ header.masthead .h1 {
 }
 
 .footer__fixed {
-	position: absolute;
-	right: 40px;
+	margin-top: 20px;
 }
 
 .footer__paragraph {
@@ -12001,4 +12024,10 @@ header.masthead .h1 {
 .navbar-collapse-min {
 	display: flex !important;
 	flex-direction: column;
+}
+
+@media screen and (max-width: 600px) {
+	.margin-top {
+		margin-top: 2rem;
+	}
 }

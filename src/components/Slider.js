@@ -85,9 +85,11 @@ function SliderCorusel() {
 		adaptiveHeight: true,
 		responsive: [
 			{
-				breakpoint: 600,
+				breakpoint: 800,
 				settings: {
 					slidesToShow: 1,
+					dots: false,
+					centerPadding: '0',
 				},
 			},
 		],
