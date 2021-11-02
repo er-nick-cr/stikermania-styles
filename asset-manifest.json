@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/stikermania-styles/static/css/main.31939a44.chunk.css",
-    "main.js": "/stikermania-styles/static/js/main.956a50c3.chunk.js",
-    "main.js.map": "/stikermania-styles/static/js/main.956a50c3.chunk.js.map",
+    "main.css": "/stikermania-styles/static/css/main.d55fb3b1.chunk.css",
+    "main.js": "/stikermania-styles/static/js/main.d3e45ae6.chunk.js",
+    "main.js.map": "/stikermania-styles/static/js/main.d3e45ae6.chunk.js.map",
     "runtime-main.js": "/stikermania-styles/static/js/runtime-main.34e07e8b.js",
     "runtime-main.js.map": "/stikermania-styles/static/js/runtime-main.34e07e8b.js.map",
     "static/css/2.f25ce549.chunk.css": "/stikermania-styles/static/css/2.f25ce549.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.245a2e00.chunk.js.map": "/stikermania-styles/static/js/3.245a2e00.chunk.js.map",
     "index.html": "/stikermania-styles/index.html",
     "static/css/2.f25ce549.chunk.css.map": "/stikermania-styles/static/css/2.f25ce549.chunk.css.map",
-    "static/css/main.31939a44.chunk.css.map": "/stikermania-styles/static/css/main.31939a44.chunk.css.map",
+    "static/css/main.d55fb3b1.chunk.css.map": "/stikermania-styles/static/css/main.d55fb3b1.chunk.css.map",
     "static/js/2.799626d0.chunk.js.LICENSE.txt": "/stikermania-styles/static/js/2.799626d0.chunk.js.LICENSE.txt",
     "static/media/1.aa3bd1c7.jpg": "/stikermania-styles/static/media/1.aa3bd1c7.jpg",
     "static/media/10.1fb7f4cd.JPG": "/stikermania-styles/static/media/10.1fb7f4cd.JPG",
@@ -58,7 +58,7 @@
     "static/js/runtime-main.34e07e8b.js",
     "static/css/2.f25ce549.chunk.css",
     "static/js/2.799626d0.chunk.js",
-    "static/css/main.31939a44.chunk.css",
-    "static/js/main.956a50c3.chunk.js"
+    "static/css/main.d55fb3b1.chunk.css",
+    "static/js/main.d3e45ae6.chunk.js"
   ]
 }
