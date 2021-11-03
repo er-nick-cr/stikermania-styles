@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/stikermania-styles/static/css/main.d55fb3b1.chunk.css",
-    "main.js": "/stikermania-styles/static/js/main.d3e45ae6.chunk.js",
-    "main.js.map": "/stikermania-styles/static/js/main.d3e45ae6.chunk.js.map",
+    "main.css": "/stikermania-styles/static/css/main.f9574582.chunk.css",
+    "main.js": "/stikermania-styles/static/js/main.c72e7d7a.chunk.js",
+    "main.js.map": "/stikermania-styles/static/js/main.c72e7d7a.chunk.js.map",
     "runtime-main.js": "/stikermania-styles/static/js/runtime-main.34e07e8b.js",
     "runtime-main.js.map": "/stikermania-styles/static/js/runtime-main.34e07e8b.js.map",
     "static/css/2.f25ce549.chunk.css": "/stikermania-styles/static/css/2.f25ce549.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.245a2e00.chunk.js.map": "/stikermania-styles/static/js/3.245a2e00.chunk.js.map",
     "index.html": "/stikermania-styles/index.html",
     "static/css/2.f25ce549.chunk.css.map": "/stikermania-styles/static/css/2.f25ce549.chunk.css.map",
-    "static/css/main.d55fb3b1.chunk.css.map": "/stikermania-styles/static/css/main.d55fb3b1.chunk.css.map",
+    "static/css/main.f9574582.chunk.css.map": "/stikermania-styles/static/css/main.f9574582.chunk.css.map",
     "static/js/2.799626d0.chunk.js.LICENSE.txt": "/stikermania-styles/static/js/2.799626d0.chunk.js.LICENSE.txt",
     "static/media/1.aa3bd1c7.jpg": "/stikermania-styles/static/media/1.aa3bd1c7.jpg",
     "static/media/10.1fb7f4cd.JPG": "/stikermania-styles/static/media/10.1fb7f4cd.JPG",
@@ -30,6 +30,9 @@
     "static/media/21.c28c8478.JPG": "/stikermania-styles/static/media/21.c28c8478.JPG",
     "static/media/22.3cfc9807.jpg": "/stikermania-styles/static/media/22.3cfc9807.jpg",
     "static/media/23.607d2b74.jpg": "/stikermania-styles/static/media/23.607d2b74.jpg",
+    "static/media/24.f00d028a.JPG": "/stikermania-styles/static/media/24.f00d028a.JPG",
+    "static/media/25.9d3e785d.JPEG": "/stikermania-styles/static/media/25.9d3e785d.JPEG",
+    "static/media/26.67911afe.JPEG": "/stikermania-styles/static/media/26.67911afe.JPEG",
     "static/media/3.c2f18904.jpg": "/stikermania-styles/static/media/3.c2f18904.jpg",
     "static/media/4.a144f58a.JPEG": "/stikermania-styles/static/media/4.a144f58a.JPEG",
     "static/media/5.6dc747ab.JPEG": "/stikermania-styles/static/media/5.6dc747ab.JPEG",
@@ -58,7 +61,7 @@
     "static/js/runtime-main.34e07e8b.js",
     "static/css/2.f25ce549.chunk.css",
     "static/js/2.799626d0.chunk.js",
-    "static/css/main.d55fb3b1.chunk.css",
-    "static/js/main.d3e45ae6.chunk.js"
+    "static/css/main.f9574582.chunk.css",
+    "static/js/main.c72e7d7a.chunk.js"
   ]
 }
