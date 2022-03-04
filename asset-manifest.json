@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/stikermania-styles/static/css/main.bd01dcd8.chunk.css",
-    "main.js": "/stikermania-styles/static/js/main.f64573fd.chunk.js",
-    "main.js.map": "/stikermania-styles/static/js/main.f64573fd.chunk.js.map",
+    "main.css": "/stikermania-styles/static/css/main.39222f3a.chunk.css",
+    "main.js": "/stikermania-styles/static/js/main.daae9d4e.chunk.js",
+    "main.js.map": "/stikermania-styles/static/js/main.daae9d4e.chunk.js.map",
     "runtime-main.js": "/stikermania-styles/static/js/runtime-main.1c86b4f3.js",
     "runtime-main.js.map": "/stikermania-styles/static/js/runtime-main.1c86b4f3.js.map",
     "static/css/2.f25ce549.chunk.css": "/stikermania-styles/static/css/2.f25ce549.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.6ef705e2.chunk.js.map": "/stikermania-styles/static/js/3.6ef705e2.chunk.js.map",
     "index.html": "/stikermania-styles/index.html",
     "static/css/2.f25ce549.chunk.css.map": "/stikermania-styles/static/css/2.f25ce549.chunk.css.map",
-    "static/css/main.bd01dcd8.chunk.css.map": "/stikermania-styles/static/css/main.bd01dcd8.chunk.css.map",
+    "static/css/main.39222f3a.chunk.css.map": "/stikermania-styles/static/css/main.39222f3a.chunk.css.map",
     "static/js/2.942bedc2.chunk.js.LICENSE.txt": "/stikermania-styles/static/js/2.942bedc2.chunk.js.LICENSE.txt",
     "static/media/10.1fb7f4cd.JPG": "/stikermania-styles/static/media/10.1fb7f4cd.JPG",
     "static/media/11.dddb9acf.jpg": "/stikermania-styles/static/media/11.dddb9acf.jpg",
@@ -44,7 +44,6 @@
     "static/media/ico-s-05.36294562.png": "/stikermania-styles/static/media/ico-s-05.36294562.png",
     "static/media/ico-s-06.92c7bbcd.png": "/stikermania-styles/static/media/ico-s-06.92c7bbcd.png",
     "static/media/ico-s-07.dfd5fcf2.png": "/stikermania-styles/static/media/ico-s-07.dfd5fcf2.png",
-    "static/media/ico-s-08.7a524f0b.png": "/stikermania-styles/static/media/ico-s-08.7a524f0b.png",
     "static/media/intro-picture.2e055773.png": "/stikermania-styles/static/media/intro-picture.2e055773.png",
     "static/media/index.css": "/stikermania-styles/static/media/slick.c94f7671.ttf",
     "static/media/portfolio-bag.8fd09993.jpg": "/stikermania-styles/static/media/portfolio-bag.8fd09993.jpg",
@@ -57,7 +56,7 @@
     "static/js/runtime-main.1c86b4f3.js",
     "static/css/2.f25ce549.chunk.css",
     "static/js/2.942bedc2.chunk.js",
-    "static/css/main.bd01dcd8.chunk.css",
-    "static/js/main.f64573fd.chunk.js"
+    "static/css/main.39222f3a.chunk.css",
+    "static/js/main.daae9d4e.chunk.js"
   ]
 }
